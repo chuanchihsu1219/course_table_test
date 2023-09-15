@@ -1,1 +1,7 @@
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
 
