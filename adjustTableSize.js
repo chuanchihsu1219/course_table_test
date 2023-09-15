@@ -15,6 +15,6 @@ function adjustTableSize() {
         const scaleValue = windowWidth / tableWidth;
         table.style.transform = `scale(${scaleValue})`;
     } else {
-        table.style.transform = 'scale(1)';
+        table.style.transform = 'scale(0.9)';
     }
 }
