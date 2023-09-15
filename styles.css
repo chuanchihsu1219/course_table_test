@@ -8,10 +8,10 @@ body {
 }
 
 .table {
-    width: 90vw;
-    margin: auto;
-    table-layout: auto;
+    width: 100vw;
+    table-layout: fixed;
     border-collapse: collapse;
+    transform: translateX(-5%);
 }
 
 .table th, .table td {
