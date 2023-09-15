@@ -1,5 +1,22 @@
-.table {
-    transform-origin: top left;
-    transform: scale(0.8);
-    transition: transform 0.2s;
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
 }
+
+#table-container {
+    overflow: auto;
+    max-width: 100%;
+}
+
+.table {
+    width: auto;
+    table-layout: auto;
+    border-collapse: collapse;
+    transform-origin: top left;
+}
+
