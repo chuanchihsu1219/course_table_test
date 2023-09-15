@@ -1,17 +1,11 @@
 body {
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
 }
 
 .table {
-    width: 100vw;
-    table-layout: fixed;
-    border-collapse: collapse;
-    transform: translateX(-5%);
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: auto;
 }
 
 .table th, .table td {
@@ -19,7 +13,10 @@ body {
     padding: 10px;
     text-align: center;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 1.5vh;
+}
+
+@media (max-width: 600px) {
+    .table {
+        zoom: 0.5;
+    }
 }
